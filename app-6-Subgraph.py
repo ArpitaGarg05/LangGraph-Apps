@@ -70,3 +70,7 @@ result = parent_graph.invoke({
 })
 
 print(result)
+
+# Flow of the subgraph:
+# START -> validate_query -> detech_urgency -> END of subgraph
+# -> support_agent(parent_graph)
