@@ -74,3 +74,14 @@ print(result)
 # Flow of the subgraph:
 # START -> validate_query -> detech_urgency -> END of subgraph
 # -> support_agent(parent_graph)
+
+# Real-life analogy for subgraph -
+# suppose a hospital has an intake workflow
+#     -take patient details
+#     -check emergency level
+#     -check deparment ...
+# same workflow can be used in a sub-department as well
+    # -OPD
+    # -emergency checkup
+    # -medicines
+    # -test and checkup
